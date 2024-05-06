@@ -1,10 +1,11 @@
 return {
    -- behaviours
    automatically_reload_config = true,
-   exit_behavior = 'CloseOnCleanExit', -- if the shell program exited with a successful status
+   -- exit_behavior = 'CloseOnCleanExit', -- if the shell program exited with a successful status
+   exit_behavior = 'Close',
    status_update_interval = 1000,
 
-   scrollback_lines = 5000,
+   scrollback_lines = 50000,
 
    hyperlink_rules = {
       -- Matches: a URL in parens: (URL)
