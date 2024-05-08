@@ -39,6 +39,8 @@ local keys = {
    -- tabs: navigation
    { key = 'Tab', mods = mod.CTRL,     action = act.ActivateTabRelative(1) },
    { key = 'Tab', mods = mod.CTRL_SHIFT,     action = act.ActivateTabRelative(-1) },
+   { key = '[', mods = mod.ALT_CTRL, action = act.MoveTabRelative(-1) },
+   { key = ']', mods = mod.ALT_CTRL, action = act.MoveTabRelative(1) },
 
    -- scroll ---
    -- scroll: scrollback only
