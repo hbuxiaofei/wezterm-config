@@ -21,7 +21,7 @@ end
 local keys = {
    -- misc/useful --
    -- { key = 'F2', mods = 'NONE', action = act.ShowLauncher },
-   { key = 'F2', mods = 'NONE', action = act.ActivateCommandPalette },
+   { key = 'm', mods = mod.ALT, action = act.ActivateCommandPalette },
 
    -- toggle fullscreen
    { key = 'F11', mods = 'NONE',    action = act.ToggleFullScreen },
